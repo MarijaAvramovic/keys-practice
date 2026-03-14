@@ -6,10 +6,12 @@ import { Lista  } from './practice.jsx'
 import RecipeList from './recipes.jsx'
 import Color from './colorstate.jsx'
 import Gallery from './sculpture.jsx'
+import { Person } from './person.jsx'
  
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Person />
     <Gallery />
   <Color />
    <RecipeList />
