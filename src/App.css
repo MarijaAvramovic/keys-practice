@@ -1,3 +1,17 @@
+.del{
+ background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.2s ease;
+ 
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;

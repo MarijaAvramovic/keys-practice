@@ -7,10 +7,12 @@ import RecipeList from './recipes.jsx'
 import Color from './colorstate.jsx'
 import Gallery from './sculpture.jsx'
 import { Person } from './person.jsx'
+import FunctionalInput from './Todos.jsx'
  
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <FunctionalInput />
     <Person />
     <Gallery />
   <Color />
